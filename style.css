@@ -1,0 +1,245 @@
+body {
+  background-color: #252B42;
+  color: white;
+}
+body header {
+  background-color: #184C99;
+}
+body header nav {
+  width: 80%;
+  margin: auto;
+}
+body header nav .container-fluid a {
+  color: white;
+}
+body #section1 {
+  width: 100%;
+  display: flex;
+  background-color: #184C99;
+}
+body #section1 .web {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+body #section1 .web h3 {
+  color: #23A6F0;
+}
+body #section1 .web h2 {
+  font-size: 5em;
+}
+body #section1 .web button {
+  width: 30%;
+}
+body #section1 img {
+  width: 25%;
+  height: 50vh;
+  margin: auto;
+}
+body #section2 {
+  width: 70%;
+  height: 30vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+body #section2 img {
+  width: 30%;
+  margin: auto;
+}
+body #section3 {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+body #section3 .background {
+  width: 30%;
+  background-image: url("./assets/Rectangle 1.png");
+}
+body #section3 .packages {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+body #section3 .packages h2 {
+  font-size: 3em;
+}
+body #section3 .packages img {
+  position: absolute;
+  left: 60%;
+  top: 60%;
+}
+body #section3 .packages button {
+  width: 20%;
+  background-color: #184C99;
+  color: #23A6F0;
+}
+body #section4 {
+  width: 100%;
+  height: 110vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+body #section4 .courses {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #section4 .courses h2 {
+  font-size: 1em;
+  color: #23A6F0;
+}
+body #section4 .courses p {
+  width: 35%;
+  text-align: center;
+}
+body #section4 .positionSale {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  color: black;
+  position: relative;
+}
+body #section4 .positionSale .carousel-inner {
+  width: 35%;
+  margin: auto;
+}
+body #section4 .positionSale .carousel-item {
+  width: 65%;
+  margin: auto;
+}
+body #section4 .positionSale .iconLike img {
+  position: absolute;
+  width: 15%;
+  left: 20%;
+  top: 35%;
+}
+body #section4 .positionSale .iconBasket img {
+  position: absolute;
+  width: 15%;
+  left: 40%;
+  top: 35%;
+}
+body #section4 .positionSale .iconEye img {
+  position: absolute;
+  width: 15%;
+  left: 60%;
+  top: 35%;
+}
+body #section4 .positionSale .iconSale img {
+  position: absolute;
+  width: 20%;
+  left: 5%;
+  bottom: 90%;
+}
+body #section4 .positionSale .iconNote img {
+  position: absolute;
+  width: 15%;
+  left: 80%;
+  top: 47%;
+}
+body #section4 .positionSale h5 {
+  font-size: 1em;
+  color: #23A6F0;
+}
+body #section5 {
+  width: 100%;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body #section5 .education {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #section5 .education p {
+  width: 35%;
+  text-align: center;
+}
+body #section5 .education h2 {
+  font-size: 1em;
+  color: #23A6F0;
+}
+body #section5 .cards {
+  width: 50%;
+  color: black;
+}
+body #section5 .cards .card {
+  display: flex;
+  align-items: center;
+}
+body #section5 .cards .card img {
+  width: 50%;
+  border-radius: 50%;
+}
+body #section5 .cards .card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #section5 .cards .card .card-body h6 {
+  color: #737373;
+}
+body #section5 .cards .card .card-body .stars {
+  width: 25%;
+  display: flex;
+}
+body #section6 .products {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #section6 .products p {
+  width: 35%;
+  text-align: center;
+}
+body #section6 .products h2 {
+  color: #23A6F0;
+  font-size: 1em;
+}
+body #section6 .products input {
+  width: 90%;
+}
+body footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+body footer .cardFooter {
+  background-color: #252B42;
+  color: white;
+}
+body footer .cardFooter h5 {
+  font-size: 1.5em;
+}
+body footer .cardFooter img {
+  width: 10%;
+}
+body footer .cardFooter ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+body footer .cardFooter ul a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,313 @@
+@import './sass/variables';
+
+body{
+    background-color: $background_allSite;
+    color: $color_text;
+    header{
+        background-color: $background_blue;
+        nav{
+            width: 80%;
+            margin: auto;
+            .container-fluid{
+                a{
+                    color: $color_text;
+                }
+            }
+        }
+    }
+
+    #section1{
+        width: 100%;
+        display: flex;
+        background-color: $background_blue;
+
+        .web{
+            width: 30%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            h3{
+                color: $color_subtitle;
+            }
+
+            h2{
+                font-size: 5em;
+            }
+
+            button{
+                width: 30%;
+            }
+        }        
+        img{
+            width: 25%;
+            height: 50vh;
+            margin: auto;
+        }
+    }
+
+    #section2{
+        width: 70%;
+        height: 30vh;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: black;
+        
+        img{
+            width: 30%;
+            margin: auto;
+        }
+
+    }
+
+    #section3{
+        width: 75%;
+        margin: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+
+        .background{
+            width: 30%;
+            background-image: url('./assets/Rectangle 1.png');
+        }
+
+        .packages{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            h2{
+                font-size: 3em;
+            }
+
+            img{
+                position: absolute;
+                left: 60%;
+                top: 60%;
+            }
+
+            button{
+                width: 20%;
+                background-color: $background_blue;
+                color: $color_subtitle;
+            }
+        }
+    }
+
+        #section4 {
+            width: 100%;
+            height: 110vh;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            
+            .courses {
+                width: 80%;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                h2 {
+                    font-size: 1em;
+                    color: $color_subtitle;
+                }
+    
+                p {
+                    width: 35%;
+                    text-align: center;
+                }
+            }
+    
+                .positionSale {
+                    width: 50%;
+                    margin: auto;
+                    display: flex;
+                    color: black;
+                    position: relative;
+
+                    .carousel-inner{
+                        width: 35%;
+                        margin: auto;
+                    }
+
+                    .carousel-item{
+                        width: 65%;
+                        margin: auto;
+                    }
+    
+    
+                    .iconLike {
+                        img {
+                            position: absolute;
+                            width: 15%;
+                            left: 20%;
+                            top: 35%;
+                        }
+                    }
+    
+                    .iconBasket {
+                        img {
+                            position: absolute;
+                            width: 15%;
+                            left: 40%;
+                            top: 35%;
+                        }
+                    }
+    
+                    .iconEye {
+                        img {
+                            position: absolute;
+                            width: 15%;
+                            left: 60%;
+                            top: 35%;
+                        }
+                    }
+    
+                    .iconSale {
+                        img {
+                            position: absolute;
+                            width: 20%;
+                            left: 5%;
+                            bottom: 90%;
+                        }
+                    }
+    
+                    .iconNote {
+                        img {
+                            position: absolute;
+                            width: 15%;
+                            left: 80%;
+                            top: 47%;
+                        }
+                    }
+    
+                    h5 {
+                        font-size: 1em;
+                        color: $color_subtitle;
+                    }
+    
+                }
+        }
+
+    #section5{
+        width: 100%;
+        height: 80vh;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .education{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p{
+                width: 35%;
+                text-align: center;
+            }
+
+            h2{
+                font-size: 1em;
+                color: $color_subtitle;
+            }
+
+        }
+
+        .cards{
+            width: 50%;
+            color: black;
+
+            .card{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 50%;
+                    border-radius: 50%;
+    
+                }
+
+                .card-body{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h6{
+                        color: #737373;
+                    }
+                    
+                    .stars{
+                        width: 25%;
+                        display: flex;
+                    }
+
+                }
+            }
+
+        }
+    }
+
+    #section6{
+        .products{
+            width: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p{
+                width: 35%;
+                text-align: center;
+            }
+            
+            h2{
+                color: $color_subtitle;
+                font-size: 1em;
+            }
+
+            input{
+                width: 90%;
+            }
+        }
+
+
+    }
+
+    footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        color: black;
+        
+        .cardFooter{
+            background-color: $background_allSite;
+            color: $color_text;
+
+            h5{
+                font-size: 1.5em;
+            }
+
+            img{
+                width: 10%;
+            }
+
+            ul{
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                a{
+                    text-decoration: none;
+                    color: $color_text;
+                }
+            }
+            }
+    }
+}
